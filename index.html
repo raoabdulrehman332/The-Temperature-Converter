@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Temperature Converter</title>
+</head>
+<style>
+    body{
+        background-color: cadetblue !important;
+    }
+    h2{
+        text-align: center;
+        font-size: 45px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color: brown;
+    }
+    h1{
+        line-height: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        word-spacing: 5px;
+    }
+</style>
+<body>
+    <h2>The Temperature Converter</h2>
+
+
+
+    <script>
+        var celsius =prompt("Enter temperature in Celsius: ");
+        var fahrenheit =prompt("Enter temperature in fahrenheit: ");
+        var a = celsius + "°C";
+        var b = fahrenheit + "°F";
+        var fahrenheit1 = (celsius * 9/5) + 32 + "°F";
+        var celsius1 = (fahrenheit - 32) * 5/9  + "°C";
+        document.write(`<h1 class="">Ceslsius : ${a}`);
+        document.write(`<h1 class="">Fahrenheit : ${b}`);
+        document.write(`<h1 class="">Ceslsius : ${a} is Fahrenheit : ${fahrenheit1}`);
+        document.write(`<h1 class="">Fahrenheit : ${b} is  Ceslsius : ${celsius1}`);
+
+
+    </script>
+</body>
+</html>
